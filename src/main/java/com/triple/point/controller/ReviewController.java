@@ -27,7 +27,7 @@ public class ReviewController {
     }
 
     // 클럽 마일리지 조회
-    @GetMapping(value = "point")
+    @GetMapping(value = "/intopoint")
     public ResponseEntity findPoint() {
         return new ResponseEntity(HttpStatus.OK);
     }
